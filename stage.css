@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	background-color: #541267;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.links{
+	width: 300px;
+	height: 300px;
+	display: grid;
+	grid-template-columns: : 100%;
+	grid-template-rows: 100px 100px 100px;
+	background-color: blue;
+	border-radius: 20px;
+}
+a{
+	text-align: center;
+	text-decoration: none;
+	color:black;
+	font-size: 40px;
+}
+a:hover{
+	color:#00a400;
+	transition: 0.4s;
+}
